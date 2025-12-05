@@ -1,8 +1,8 @@
-## RealMLP
+# RealMLP
 
 Paper: [Better by Default: Strong Pre-Tuned MLPs and Boosted Trees on Tabular Data](https://arxiv.org/abs/2407.04491)
 
-# Resumo
+## Resumo
 RealMLP é uma arquitetura baseada no multi-layer perceptron para dados
 tabulares que pode ser treinada tanto para classificação (dado um input com
 certas categorias, ele prevê uma classe a qual esse input pertence), quanto
@@ -20,4 +20,13 @@ disso, uma combinação de RealMLP e GBDTs com parâmetros padrões melhorados
 atingem ótimos resultados sem tuning de híper-parâmetros. Por fim, as melhorias
 de RealMLP podem melhorar a performance de TabR (uma outra arquitetura de deep
 learning para dados tabulares) com parâmetros padrões .
+
+## Introdução
+MLPs têm mostrado bons resultados para dados tabulares, mas o tempo de treino
+deles são geralmente mais lentos do que para GBDTs. O paper estuda como MLPs
+podem ser melhoradas em termos de arquitetura, treino, pré-processamento,
+híper-parâmetros e inicialização.
+
+Mesmo com redes neurais rápidas e precisas, o custo de otimização 
+de híper-parâmetros pode ser um problema. Para abordar este problema ... 
 
